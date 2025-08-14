@@ -1,65 +1,65 @@
-Aug-14 12:21:25.582 [main] DEBUG nextflow.cli.Launcher - $> nextflow main.nf -profile dgx_a100 --input /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv --outdir /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results
-Aug-14 12:21:25.674 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.3
-Aug-14 12:21:25.689 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/cdcadmin/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2
-Aug-14 12:21:25.698 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Aug-14 12:21:25.698 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Aug-14 12:21:25.701 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
-Aug-14 12:21:25.711 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Aug-14 12:21:25.729 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/cdcadmin/neissflow-dgx-updated/nextflow.config
-Aug-14 12:21:25.730 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/cdcadmin/neissflow-dgx-updated/nextflow.config
-Aug-14 12:21:25.749 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/cdcadmin/.nextflow/secrets/store.json
-Aug-14 12:21:25.752 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@389562d6] - activable => nextflow.secret.LocalSecretsProvider@389562d6
-Aug-14 12:21:25.763 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `dgx_a100`
-Aug-14 12:21:26.942 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [all, test_fasta, highmem, QC, debug, test, short, singularity, test_both, dgx_a100]
-Aug-14 12:21:26.988 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
-Aug-14 12:21:27.005 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [gigantic_poincare] DSL2 - revision: 93f13dad4b
-Aug-14 12:21:27.006 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Aug-14 12:21:27.006 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Aug-14 12:21:27.058 [main] DEBUG nextflow.Session - Session UUID: 246073e1-f6bf-4f84-8d4f-8f29ef6941cd
-Aug-14 12:21:27.058 [main] DEBUG nextflow.Session - Run name: gigantic_poincare
-Aug-14 12:21:27.058 [main] DEBUG nextflow.Session - Executor pool size: 128
-Aug-14 12:21:27.065 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Aug-14 12:21:27.069 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Aug-14 12:21:27.085 [main] DEBUG nextflow.cli.CmdRun - 
+Aug-14 13:00:17.371 [main] DEBUG nextflow.cli.Launcher - $> nextflow main.nf -profile dgx_a100 --input /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv --outdir /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results
+Aug-14 13:00:17.461 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.3
+Aug-14 13:00:17.477 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/cdcadmin/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2
+Aug-14 13:00:17.485 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Aug-14 13:00:17.486 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Aug-14 13:00:17.488 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Aug-14 13:00:17.503 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Aug-14 13:00:17.521 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/cdcadmin/neissflow-dgx-updated/nextflow.config
+Aug-14 13:00:17.523 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/cdcadmin/neissflow-dgx-updated/nextflow.config
+Aug-14 13:00:17.543 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/cdcadmin/.nextflow/secrets/store.json
+Aug-14 13:00:17.546 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@389562d6] - activable => nextflow.secret.LocalSecretsProvider@389562d6
+Aug-14 13:00:17.558 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `dgx_a100`
+Aug-14 13:00:18.695 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [all, test_fasta, highmem, QC, debug, test, short, singularity, test_both, dgx_a100]
+Aug-14 13:00:18.743 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Aug-14 13:00:18.759 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [confident_joliot] DSL2 - revision: 93f13dad4b
+Aug-14 13:00:18.760 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Aug-14 13:00:18.761 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Aug-14 13:00:18.815 [main] DEBUG nextflow.Session - Session UUID: 25ee063f-645d-4156-b682-31202835e8a9
+Aug-14 13:00:18.815 [main] DEBUG nextflow.Session - Run name: confident_joliot
+Aug-14 13:00:18.815 [main] DEBUG nextflow.Session - Executor pool size: 128
+Aug-14 13:00:18.822 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Aug-14 13:00:18.826 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Aug-14 13:00:18.841 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 24.04.3 build 5916
   Created: 09-07-2024 19:35 UTC (10-07-2024 02:35 ICST)
   System: Linux 5.15.0-151-generic
   Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 17.0.10+7
   Encoding: UTF-8 (UTF-8)
-  Process: 113411@dgx-a100 [192.168.1.11]
-  CPUs: 128 - Mem: 503.7 GB (486.2 GB) - Swap: 0 (0)
-Aug-14 12:21:27.104 [main] DEBUG nextflow.Session - Work-dir: /home/cdcadmin/neissflow-dgx-updated/work [ext2/ext3]
-Aug-14 12:21:27.157 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Aug-14 12:21:27.165 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Aug-14 12:21:27.210 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Aug-14 12:21:27.218 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 129; maxThreads: 1000
-Aug-14 12:21:27.265 [main] DEBUG nextflow.Session - Session start
-Aug-14 12:21:27.267 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results/trace.txt
-Aug-14 12:21:27.464 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Aug-14 12:21:28.794 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: latest
-Aug-14 12:21:29.105 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.4' resolved
-Aug-14 12:21:29.105 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.4'
-Aug-14 12:21:29.110 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.4
-Aug-14 12:21:29.110 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 12:21:29.358 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
-Aug-14 12:21:29.359 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
-Aug-14 12:21:29.360 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
-Aug-14 12:21:29.363 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 12:21:29.364 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
-Aug-14 12:21:32.738 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 12:21:32.915 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
-Aug-14 12:21:32.916 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
-Aug-14 12:21:32.916 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
-Aug-14 12:21:32.919 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 12:21:32.920 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
-Aug-14 12:21:34.562 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
-Aug-14 12:21:34.563 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
-Aug-14 12:21:34.564 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
-Aug-14 12:21:34.566 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 12:21:34.567 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
-Aug-14 12:21:34.697 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
-Aug-14 12:21:34.792 [main] DEBUG nextflow.Nextflow - Using schema file: nextflow_schema.json
-Aug-14 12:21:34.815 [main] INFO  nextflow.Nextflow - 
+  Process: 142840@dgx-a100 [192.168.1.11]
+  CPUs: 128 - Mem: 503.7 GB (486.1 GB) - Swap: 0 (0)
+Aug-14 13:00:18.859 [main] DEBUG nextflow.Session - Work-dir: /home/cdcadmin/neissflow-dgx-updated/work [ext2/ext3]
+Aug-14 13:00:18.911 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Aug-14 13:00:18.918 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Aug-14 13:00:18.962 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Aug-14 13:00:18.971 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 129; maxThreads: 1000
+Aug-14 13:00:19.018 [main] DEBUG nextflow.Session - Session start
+Aug-14 13:00:19.020 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results/trace.txt
+Aug-14 13:00:19.214 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-14 13:00:20.584 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: latest
+Aug-14 13:00:21.199 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.4' resolved
+Aug-14 13:00:21.199 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.4'
+Aug-14 13:00:21.203 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.4
+Aug-14 13:00:21.204 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 13:00:21.453 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
+Aug-14 13:00:21.454 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
+Aug-14 13:00:21.454 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
+Aug-14 13:00:21.458 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 13:00:21.458 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
+Aug-14 13:00:24.755 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 13:00:24.940 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
+Aug-14 13:00:24.941 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
+Aug-14 13:00:24.942 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
+Aug-14 13:00:24.944 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 13:00:24.945 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
+Aug-14 13:00:26.602 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
+Aug-14 13:00:26.603 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
+Aug-14 13:00:26.603 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
+Aug-14 13:00:26.606 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 13:00:26.607 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
+Aug-14 13:00:26.738 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
+Aug-14 13:00:26.808 [main] DEBUG nextflow.Nextflow - Using schema file: nextflow_schema.json
+Aug-14 13:00:26.819 [main] INFO  nextflow.Nextflow - 
 
 -[2m----------------------------------------------------[0m-
 [0;32m             _          __ _               
@@ -71,7 +71,7 @@ Aug-14 12:21:34.815 [main] INFO  nextflow.Nextflow -
 [0;35m  neissflow/main.nf v2.0.0[0m
 -[2m----------------------------------------------------[0m-
 [1mCore Nextflow options[0m
-  [0;34mrunName                   : [0;32mgigantic_poincare[0m
+  [0;34mrunName                   : [0;32mconfident_joliot[0m
   [0;34mlaunchDir                 : [0;32m/home/cdcadmin/neissflow-dgx-updated[0m
   [0;34mworkDir                   : [0;32m/home/cdcadmin/neissflow-dgx-updated/work[0m
   [0;34mprojectDir                : [0;32m/home/cdcadmin/neissflow-dgx-updated[0m
@@ -129,373 +129,379 @@ If you use neissflow/main.nf for your analysis please cite:
 * Software dependencies
   https://github.com/CDCgov/neissflow/main.nf/-/blob/main/CITATIONS.md
 -[2m----------------------------------------------------[0m-
-Aug-14 12:21:34.827 [main] DEBUG nextflow.validation.SchemaValidator - Starting validation: '/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv' with 'assets/schema_input.json'
-Aug-14 12:21:34.919 [main] DEBUG nextflow.validation.SchemaValidator - Validation passed: '/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv' with 'assets/schema_input.json'
-Aug-14 12:21:35.036 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS
-Aug-14 12:21:35.039 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CHECK_FASTQS` matches process NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS
-Aug-14 12:21:35.051 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.051 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.056 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
-Aug-14 12:21:35.063 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=128; memory=503.7 GB; capacity=20; pollInterval=5s; dumpInterval=5m
-Aug-14 12:21:35.065 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Aug-14 12:21:35.114 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP
-Aug-14 12:21:35.115 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:FASTP` matches process NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP
-Aug-14 12:21:35.120 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.120 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.135 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS
-Aug-14 12:21:35.136 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PARSE_FASTP_REPORTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS
-Aug-14 12:21:35.141 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.141 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.154 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS
-Aug-14 12:21:35.155 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COMBINE_FASTP_REPORTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS
-Aug-14 12:21:35.160 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.160 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.169 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK
-Aug-14 12:21:35.169 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:FASTP_QC_CHECK` matches process NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK
-Aug-14 12:21:35.174 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.174 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.215 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY
-Aug-14 12:21:35.216 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY` matches process NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY
-Aug-14 12:21:35.224 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.224 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.250 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:ASSEMBLY_STATS
-Aug-14 12:21:35.251 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ASSEMBLY_STATS` matches process NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:ASSEMBLY_STATS
-Aug-14 12:21:35.254 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.254 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.271 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:QUAST
-Aug-14 12:21:35.272 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:QUAST` matches process NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:QUAST
-Aug-14 12:21:35.276 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.276 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.296 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH
-Aug-14 12:21:35.297 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MASH` matches process NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH
-Aug-14 12:21:35.300 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.300 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.310 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS
-Aug-14 12:21:35.311 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COMBINE_MASH_REPORTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS
-Aug-14 12:21:35.314 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.314 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.325 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:STATS
-Aug-14 12:21:35.327 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:STATS` matches process NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:STATS
-Aug-14 12:21:35.329 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.329 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.338 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COVERAGE
-Aug-14 12:21:35.339 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COVERAGE` matches process NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COVERAGE
-Aug-14 12:21:35.342 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.342 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.355 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:INITIAL_MERGE
-Aug-14 12:21:35.356 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:INITIAL_MERGE` matches process NFCORE_NEISSFLOW:NEISSFLOW:INITIAL_MERGE
-Aug-14 12:21:35.359 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.359 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.365 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:QC_CHECK
-Aug-14 12:21:35.366 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:QC_CHECK` matches process NFCORE_NEISSFLOW:NEISSFLOW:QC_CHECK
-Aug-14 12:21:35.368 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.368 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.415 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR
-Aug-14 12:21:35.417 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_AMR` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR
-Aug-14 12:21:35.424 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.424 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.452 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH
-Aug-14 12:21:35.453 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:DEPTH` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH
-Aug-14 12:21:35.457 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.457 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.476 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:VARIANT_ANALYSIS
-Aug-14 12:21:35.477 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:VARIANT_ANALYSIS` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:VARIANT_ANALYSIS
-Aug-14 12:21:35.480 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.480 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.491 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MLST
-Aug-14 12:21:35.492 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MLST` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MLST
-Aug-14 12:21:35.495 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.495 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.506 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:NGMASTER
-Aug-14 12:21:35.507 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:NGMASTER` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:NGMASTER
-Aug-14 12:21:35.511 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.511 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.522 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:BLASTN
-Aug-14 12:21:35.523 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BLASTN` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:BLASTN
-Aug-14 12:21:35.526 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.526 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.542 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_SINGLE_AMR
-Aug-14 12:21:35.543 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MERGE_SINGLE_AMR` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_SINGLE_AMR
-Aug-14 12:21:35.546 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.546 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.559 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_AMR
-Aug-14 12:21:35.561 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MERGE_AMR` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_AMR
-Aug-14 12:21:35.564 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.564 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.592 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:MERGE_REPORTS
-Aug-14 12:21:35.593 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MERGE_REPORTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:MERGE_REPORTS
-Aug-14 12:21:35.596 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.596 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.622 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low_memory` matches labels `process_low_memory` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CORE
-Aug-14 12:21:35.623 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_CORE` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CORE
-Aug-14 12:21:35.626 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.626 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.639 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low_memory` matches labels `process_low_memory` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CLEAN
-Aug-14 12:21:35.640 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_CLEAN` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CLEAN
-Aug-14 12:21:35.643 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.643 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.658 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GUBBINS
-Aug-14 12:21:35.659 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:GUBBINS` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GUBBINS
-Aug-14 12:21:35.662 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.662 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.677 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium_memory` matches labels `process_medium_memory` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:COUNT_MONO_NUC
-Aug-14 12:21:35.678 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COUNT_MONO_NUC` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:COUNT_MONO_NUC
-Aug-14 12:21:35.680 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.680 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.688 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNPDISTS
-Aug-14 12:21:35.689 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNPDISTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNPDISTS
-Aug-14 12:21:35.691 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.691 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.701 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:OUTBREAK_DETECTION
-Aug-14 12:21:35.702 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:OUTBREAK_DETECTION` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:OUTBREAK_DETECTION
-Aug-14 12:21:35.704 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.704 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.714 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:CLUSTER_COLORING
-Aug-14 12:21:35.716 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CLUSTER_COLORING` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:CLUSTER_COLORING
-Aug-14 12:21:35.718 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.718 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.725 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:MAKE_PARTITION_GUIDE
-Aug-14 12:21:35.726 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MAKE_PARTITION_GUIDE` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:MAKE_PARTITION_GUIDE
-Aug-14 12:21:35.728 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.728 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.740 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:RAXML
-Aug-14 12:21:35.741 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:RAXML` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:RAXML
-Aug-14 12:21:35.743 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.743 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.758 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REROOT
-Aug-14 12:21:35.759 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:REROOT` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REROOT
-Aug-14 12:21:35.761 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.762 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.774 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC
-Aug-14 12:21:35.776 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PHYLOGENY_QC` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC
-Aug-14 12:21:35.779 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.779 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.792 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GOTREE_PNG
-Aug-14 12:21:35.793 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:GOTREE_PNG` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GOTREE_PNG
-Aug-14 12:21:35.796 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.796 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.808 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REPORT
-Aug-14 12:21:35.809 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:REPORT` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REPORT
-Aug-14 12:21:35.813 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.813 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.930 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:MULTIQC
-Aug-14 12:21:35.934 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
-Aug-14 12:21:35.935 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Aug-14 12:21:35.951 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:RAXML, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:COUNT_MONO_NUC, GOTREE_PNG, OUTBREAK_DETECTION, SNIPPY_CORE, MAKE_PARTITION_GUIDE, NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COVERAGE, NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CORE, VARIANT_ANALYSIS, MERGE_REPORTS, FASTP, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:MAKE_PARTITION_GUIDE, SHOVILL, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MLST, CLUSTER_COLORING, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:OUTBREAK_DETECTION, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC, NFCORE_NEISSFLOW:NEISSFLOW:MULTIQC, QC_CHECK, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:BLASTN, ALT_SNIPPY, ASSEMBLY_STATS, BLASTN, NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:QUAST, NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:ASSEMBLY_STATS, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_AMR, MERGE_SINGLE_AMR, NFCORE_NEISSFLOW:NEISSFLOW:INITIAL_MERGE, QUAST, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:VARIANT_ANALYSIS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNPDISTS, NFCORE_NEISSFLOW:NEISSFLOW:QC_CHECK, CHECK_FASTQS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REROOT, PARSE_FASTP_REPORTS, FASTP_QC_CHECK, SNPDISTS, NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH, REMOVE_REF, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GUBBINS, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_SINGLE_AMR, ASSEMBLY_STATS_LITE, SNIPPY, NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY, COVERAGE, SNIPPY_CLEAN, GUBBINS, STATS, MULTIQC, MASH, RAXML, NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS, NGMASTER, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REPORT, NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:STATS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:CLUSTER_COLORING, SNIPPY_AMR, MERGE_AMR, COUNT_MONO_NUC, NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH, MLST, NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS, COMBINE_FASTP_REPORTS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CLEAN, REPORT, INITIAL_MERGE, NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK, NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS, COMBINE_MASH_REPORTS, NFCORE_NEISSFLOW:NEISSFLOW:MERGE_REPORTS, REROOT, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GOTREE_PNG, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:NGMASTER, NGMASTER_SIMPLE, DEPTH, PHYLOGENY_QC
-Aug-14 12:21:35.965 [main] DEBUG nextflow.Session - Igniting dataflow network (72)
-Aug-14 12:21:35.966 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS
-Aug-14 12:21:35.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP
-Aug-14 12:21:35.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS
-Aug-14 12:21:35.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS
-Aug-14 12:21:35.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK
-Aug-14 12:21:35.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY
-Aug-14 12:21:35.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:ASSEMBLY_STATS
-Aug-14 12:21:35.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:QUAST
-Aug-14 12:21:35.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH
-Aug-14 12:21:35.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS
-Aug-14 12:21:35.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:STATS
-Aug-14 12:21:35.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COVERAGE
-Aug-14 12:21:35.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:INITIAL_MERGE
-Aug-14 12:21:35.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:QC_CHECK
-Aug-14 12:21:35.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR
-Aug-14 12:21:35.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH
-Aug-14 12:21:35.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:VARIANT_ANALYSIS
-Aug-14 12:21:35.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MLST
-Aug-14 12:21:35.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:NGMASTER
-Aug-14 12:21:35.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:BLASTN
-Aug-14 12:21:35.973 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_SINGLE_AMR
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_AMR
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:MERGE_REPORTS
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CORE
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CLEAN
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GUBBINS
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:COUNT_MONO_NUC
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNPDISTS
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:OUTBREAK_DETECTION
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:CLUSTER_COLORING
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:MAKE_PARTITION_GUIDE
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:RAXML
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REROOT
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC
-Aug-14 12:21:35.974 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GOTREE_PNG
-Aug-14 12:21:35.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REPORT
-Aug-14 12:21:35.975 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:MULTIQC
-Aug-14 12:21:35.979 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+Aug-14 13:00:26.830 [main] DEBUG nextflow.validation.SchemaValidator - Starting validation: '/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv' with 'assets/schema_input.json'
+Aug-14 13:00:26.910 [main] DEBUG nextflow.validation.SchemaValidator - Validation passed: '/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv' with 'assets/schema_input.json'
+Aug-14 13:00:26.990 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS
+Aug-14 13:00:26.993 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CHECK_FASTQS` matches process NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS
+Aug-14 13:00:27.005 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.006 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.010 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Aug-14 13:00:27.017 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=128; memory=503.7 GB; capacity=20; pollInterval=5s; dumpInterval=5m
+Aug-14 13:00:27.019 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Aug-14 13:00:27.071 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP
+Aug-14 13:00:27.072 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:FASTP` matches process NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP
+Aug-14 13:00:27.079 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.079 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.095 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS
+Aug-14 13:00:27.096 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PARSE_FASTP_REPORTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS
+Aug-14 13:00:27.102 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.102 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.115 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS
+Aug-14 13:00:27.117 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COMBINE_FASTP_REPORTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS
+Aug-14 13:00:27.122 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.122 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.131 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK
+Aug-14 13:00:27.133 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:FASTP_QC_CHECK` matches process NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK
+Aug-14 13:00:27.137 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.137 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.183 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY
+Aug-14 13:00:27.184 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY` matches process NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY
+Aug-14 13:00:27.193 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.193 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.220 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:ASSEMBLY_STATS
+Aug-14 13:00:27.221 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:ASSEMBLY_STATS` matches process NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:ASSEMBLY_STATS
+Aug-14 13:00:27.225 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.225 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.243 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:QUAST
+Aug-14 13:00:27.245 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:QUAST` matches process NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:QUAST
+Aug-14 13:00:27.249 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.249 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.272 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH
+Aug-14 13:00:27.273 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MASH` matches process NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH
+Aug-14 13:00:27.275 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.275 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.286 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS
+Aug-14 13:00:27.287 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COMBINE_MASH_REPORTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS
+Aug-14 13:00:27.290 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.290 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.302 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:STATS
+Aug-14 13:00:27.304 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:STATS` matches process NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:STATS
+Aug-14 13:00:27.307 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.307 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.317 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COVERAGE
+Aug-14 13:00:27.318 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COVERAGE` matches process NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COVERAGE
+Aug-14 13:00:27.321 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.321 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.336 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:INITIAL_MERGE
+Aug-14 13:00:27.337 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:INITIAL_MERGE` matches process NFCORE_NEISSFLOW:NEISSFLOW:INITIAL_MERGE
+Aug-14 13:00:27.340 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.340 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.347 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:QC_CHECK
+Aug-14 13:00:27.348 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:QC_CHECK` matches process NFCORE_NEISSFLOW:NEISSFLOW:QC_CHECK
+Aug-14 13:00:27.351 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.351 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.401 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR
+Aug-14 13:00:27.402 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_AMR` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR
+Aug-14 13:00:27.409 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.409 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.437 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH
+Aug-14 13:00:27.438 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:DEPTH` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH
+Aug-14 13:00:27.442 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.442 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.461 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:VARIANT_ANALYSIS
+Aug-14 13:00:27.462 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:VARIANT_ANALYSIS` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:VARIANT_ANALYSIS
+Aug-14 13:00:27.465 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.465 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.476 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MLST
+Aug-14 13:00:27.477 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MLST` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MLST
+Aug-14 13:00:27.480 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.480 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.491 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:NGMASTER
+Aug-14 13:00:27.493 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:NGMASTER` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:NGMASTER
+Aug-14 13:00:27.496 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.496 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.507 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:BLASTN
+Aug-14 13:00:27.508 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BLASTN` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:BLASTN
+Aug-14 13:00:27.511 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.511 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.528 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_SINGLE_AMR
+Aug-14 13:00:27.529 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MERGE_SINGLE_AMR` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_SINGLE_AMR
+Aug-14 13:00:27.531 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.532 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.545 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_AMR
+Aug-14 13:00:27.546 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MERGE_AMR` matches process NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_AMR
+Aug-14 13:00:27.549 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.549 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.578 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:MERGE_REPORTS
+Aug-14 13:00:27.579 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MERGE_REPORTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:MERGE_REPORTS
+Aug-14 13:00:27.582 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.582 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.607 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low_memory` matches labels `process_low_memory` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CORE
+Aug-14 13:00:27.608 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_CORE` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CORE
+Aug-14 13:00:27.611 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.612 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.626 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low_memory` matches labels `process_low_memory` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CLEAN
+Aug-14 13:00:27.627 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNIPPY_CLEAN` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CLEAN
+Aug-14 13:00:27.630 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.630 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.644 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GUBBINS
+Aug-14 13:00:27.646 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:GUBBINS` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GUBBINS
+Aug-14 13:00:27.648 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.649 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.663 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium_memory` matches labels `process_medium_memory` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:COUNT_MONO_NUC
+Aug-14 13:00:27.664 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:COUNT_MONO_NUC` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:COUNT_MONO_NUC
+Aug-14 13:00:27.667 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.667 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.674 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNPDISTS
+Aug-14 13:00:27.676 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:SNPDISTS` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNPDISTS
+Aug-14 13:00:27.678 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.678 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.688 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:OUTBREAK_DETECTION
+Aug-14 13:00:27.689 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:OUTBREAK_DETECTION` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:OUTBREAK_DETECTION
+Aug-14 13:00:27.691 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.692 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.702 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:CLUSTER_COLORING
+Aug-14 13:00:27.703 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CLUSTER_COLORING` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:CLUSTER_COLORING
+Aug-14 13:00:27.706 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.706 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.713 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:MAKE_PARTITION_GUIDE
+Aug-14 13:00:27.714 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MAKE_PARTITION_GUIDE` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:MAKE_PARTITION_GUIDE
+Aug-14 13:00:27.716 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.716 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.728 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:RAXML
+Aug-14 13:00:27.729 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:RAXML` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:RAXML
+Aug-14 13:00:27.731 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.732 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.747 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REROOT
+Aug-14 13:00:27.748 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:REROOT` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REROOT
+Aug-14 13:00:27.750 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.750 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.762 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC
+Aug-14 13:00:27.765 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:PHYLOGENY_QC` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC
+Aug-14 13:00:27.767 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.768 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.781 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GOTREE_PNG
+Aug-14 13:00:27.783 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:GOTREE_PNG` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GOTREE_PNG
+Aug-14 13:00:27.785 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.785 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.798 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REPORT
+Aug-14 13:00:27.799 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:REPORT` matches process NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REPORT
+Aug-14 13:00:27.802 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.802 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.924 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name NFCORE_NEISSFLOW:NEISSFLOW:MULTIQC
+Aug-14 13:00:27.928 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Aug-14 13:00:27.928 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Aug-14 13:00:27.945 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:RAXML, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:COUNT_MONO_NUC, GOTREE_PNG, OUTBREAK_DETECTION, SNIPPY_CORE, MAKE_PARTITION_GUIDE, NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COVERAGE, NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CORE, VARIANT_ANALYSIS, MERGE_REPORTS, FASTP, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:MAKE_PARTITION_GUIDE, SHOVILL, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MLST, CLUSTER_COLORING, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:OUTBREAK_DETECTION, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC, NFCORE_NEISSFLOW:NEISSFLOW:MULTIQC, QC_CHECK, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:BLASTN, ALT_SNIPPY, ASSEMBLY_STATS, BLASTN, NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:QUAST, NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:ASSEMBLY_STATS, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_AMR, MERGE_SINGLE_AMR, NFCORE_NEISSFLOW:NEISSFLOW:INITIAL_MERGE, QUAST, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:VARIANT_ANALYSIS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNPDISTS, NFCORE_NEISSFLOW:NEISSFLOW:QC_CHECK, CHECK_FASTQS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REROOT, PARSE_FASTP_REPORTS, FASTP_QC_CHECK, SNPDISTS, NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH, REMOVE_REF, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GUBBINS, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_SINGLE_AMR, ASSEMBLY_STATS_LITE, SNIPPY, NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY, COVERAGE, SNIPPY_CLEAN, GUBBINS, STATS, MULTIQC, MASH, RAXML, NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS, NGMASTER, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REPORT, NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:STATS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:CLUSTER_COLORING, SNIPPY_AMR, MERGE_AMR, COUNT_MONO_NUC, NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH, MLST, NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS, COMBINE_FASTP_REPORTS, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CLEAN, REPORT, INITIAL_MERGE, NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK, NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS, COMBINE_MASH_REPORTS, NFCORE_NEISSFLOW:NEISSFLOW:MERGE_REPORTS, REROOT, NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GOTREE_PNG, NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:NGMASTER, NGMASTER_SIMPLE, DEPTH, PHYLOGENY_QC
+Aug-14 13:00:27.959 [main] DEBUG nextflow.Session - Igniting dataflow network (72)
+Aug-14 13:00:27.960 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS
+Aug-14 13:00:27.960 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP
+Aug-14 13:00:27.960 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:ASSEMBLY_STATS
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:ASSEMBLY:QUAST
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:STATS
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COVERAGE
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:INITIAL_MERGE
+Aug-14 13:00:27.961 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:QC_CHECK
+Aug-14 13:00:27.966 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:VARIANT_ANALYSIS
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MLST
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:NGMASTER
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:BLASTN
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_SINGLE_AMR
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:MERGE_AMR
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:MERGE_REPORTS
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CORE
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNIPPY_CLEAN
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GUBBINS
+Aug-14 13:00:27.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:COUNT_MONO_NUC
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:SNPDISTS
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:OUTBREAK_DETECTION
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:CLUSTER_COLORING
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:MAKE_PARTITION_GUIDE
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:RAXML
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REROOT
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:GOTREE_PNG
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:REPORT
+Aug-14 13:00:27.968 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > NFCORE_NEISSFLOW:NEISSFLOW:MULTIQC
+Aug-14 13:00:27.971 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_7bfd0abdceb0ab67: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/local/qc_check/qc_check.nf
+  Script_204765e73e8a7b6d: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/local/check_fastqs.nf
   Script_063d4aa3571d67c4: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/preprocessing.nf
-  Script_a637c0a1fbbe5e40: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/merge_amr.nf
-  Script_9b028d324eb948cd: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/mash/combine_mash_reports.nf
   Script_c5c706c0cf3fd9a3: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/snippy_core.nf
   Script_c950ad672cad0574: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/assembly.nf
   Script_2fc21e975812d304: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/local/snippy.nf
   Script_34a6e65ee7dbdbe0: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/utils_nfcore_neissflow_pipeline/../../nf-core/utils_nextflow_pipeline/main.nf
+  Script_023bdd7ea5fa8e48: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/cluster_coloring.nf
   Script_2e5348732a4e7bb0: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/fastp/fastp_qc.nf
   Script_a7d371fe23db7aab: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/utils_nfcore_neissflow_pipeline/../../nf-core/utils_nfvalidation_plugin/main.nf
   Script_47e10b5b1143796d: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/amr_profiler.nf
+  Script_0f9ce5130b08a5d6: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/stats/coverage.nf
   Script_d43a7ac6165a9098: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/count_mono.nf
   Script_9d26c2a2d1c0a0de: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/phylogeny.nf
   Script_11299cb12a111d0f: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/nf-core/multiqc/main.nf
   Script_250447df0c6ceda4: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/fastp/fastp.nf
   Script_48a7912bd49586a6: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/raxml.nf
   Script_2461d3355840ccb0: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/fastp/parse_fastp.nf
+  Script_0404e243efe28cd0: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/make_guide.nf
   Script_322a87e3ad1d33ae: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/nf-core/quast/main.nf
   Script_a770572eb6fe426e: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/mash/mash.nf
+  Script_bf5df7856be3ba1b: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/fastp/combine_reports.nf
   Script_26295e483898a217: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/reroot.nf
   Script_ac97c488bf8f3054: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/blastn.nf
   Script_767f800d4dcf57d3: /home/cdcadmin/neissflow-dgx-updated/main.nf
-  Script_45212e4ae1ede215: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/merge_single_amr.nf
+  Script_1d7e4826bfc1b7ac: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/phylogeny_qc.nf
   Script_5ac47bad11aadf90: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/assembly_stats_lite.nf
   Script_a91022202ff9beb3: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/stats/stats.nf
-  Script_95781c30fe597bdd: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/make_guide.nf
-  Script_8f8da2a677011312: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/local/merge/merge.nf
   Script_b46a7490731f48c6: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/nf-core/utils_nfcore_pipeline/main.nf
-  Script_b258e7837e8c67b3: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/stats/coverage.nf
-  Script_e72d0ad3be1d1ed7: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/local/qc_check/qc_check.nf
   Script_bd43f9ee392a3b1b: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/variant_analysis.nf
   Script_76e9ac96a6c60717: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/report.nf
   Script_2b7779e2cd301515: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/depth.nf
-  Script_01aa05ccdf2fa4ea: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/phylogeny_qc.nf
   Script_033e739b8102f047: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/remove_ref.nf
+  Script_4b63fbc6a15d283a: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/mash/combine_mash_reports.nf
   Script_30d352b9a5a897a7: /home/cdcadmin/neissflow-dgx-updated/./workflows/QC.nf
+  Script_33367bc071872c31: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/local/merge/merge.nf
   Script_fdaa13a6811edfd4: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/outbreak_detection.nf
-  Script_66b06c3e8d45184b: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/local/check_fastqs.nf
+  Script_0095e29189085f89: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/merge_single_amr.nf
   Script_25784a6cc3904f81: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/gubbins.nf
   Script_2e8b63203ad4b51b: /home/cdcadmin/neissflow-dgx-updated/./workflows/../modules/local/qc_check/initial_merge.nf
   Script_228dd5752694ad41: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/utils_nfcore_neissflow_pipeline/main.nf
   Script_38cc6e893a8cae21: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/ngmaster.nf
   Script_0b2d93f493e59690: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/snippy_amr.nf
+  Script_1e2146212cf8b055: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/merge_amr.nf
   Script_b691b9ae3f2e1f32: /home/cdcadmin/neissflow-dgx-updated/./workflows/neissflow.nf
-  Script_a974759000891f13: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/cluster_coloring.nf
   Script_ca5a55261753f5ac: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/snippy_clean.nf
   Script_6ca550f3f0c7dc72: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/ngmaster_simple.nf
   Script_c00eb8d86f7b528a: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/species_check.nf
   Script_38723cf1683a6e5a: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/snpdists.nf
   Script_f5ba4a26a69155a6: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/mlst.nf
   Script_7c51e170deb228c8: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/spades/assembly_stats.nf
-  Script_6a24292f230b4820: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/fastp/combine_reports.nf
   Script_24f51f409caeb2a8: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/shovill.nf
   Script_28616a6258761e81: /home/cdcadmin/neissflow-dgx-updated/./workflows/../subworkflows/local/../../modules/local/gotree.nf
-Aug-14 12:21:35.979 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
-Aug-14 12:21:35.979 [main] DEBUG nextflow.Session - Session await
-Aug-14 12:21:36.043 [Actor Thread 124] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.0 s; external sort time: 0.01 s; total time: 0.01 s
-Aug-14 12:21:36.043 [Actor Thread 129] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.0 s; external sort time: 0.01 s; total time: 0.01 s
-Aug-14 12:21:36.047 [Actor Thread 129] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/cdcadmin/neissflow-dgx-updated/work/collect-file/39ac36114ebbe1340cf71c940796b04f
-Aug-14 12:21:36.047 [Actor Thread 124] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/cdcadmin/neissflow-dgx-updated/work/collect-file/2edd497d1ec1a32954e5a8e78e5d4506
-Aug-14 12:21:36.053 [Actor Thread 129] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-1086119458290773060
-Aug-14 12:21:36.053 [Actor Thread 124] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-8479884186140460773
-Aug-14 12:21:36.109 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Aug-14 12:21:36.111 [Task submitter] INFO  nextflow.Session - [32/5d656f] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS (ERR9668844)
-Aug-14 12:21:36.121 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Aug-14 12:21:36.121 [Task submitter] INFO  nextflow.Session - [3d/812a4e] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS (ERR9668843)
-Aug-14 12:21:58.419 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS (ERR9668843); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/3d/812a4e97a43afeba90c9f365fdef31]
-Aug-14 12:21:58.420 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Aug-14 12:21:58.452 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Aug-14 12:21:58.452 [Task submitter] INFO  nextflow.Session - [df/cb1de2] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP (ERR9668843)
-Aug-14 12:22:00.282 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS (ERR9668844); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/32/5d656faa541ad769df7210bb5a9090]
-Aug-14 12:22:00.298 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Aug-14 12:22:00.298 [Task submitter] INFO  nextflow.Session - [44/a0b973] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP (ERR9668844)
-Aug-14 12:22:21.920 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP (ERR9668843); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/df/cb1de231bcbb74df14aba6abcc5662]
-Aug-14 12:22:21.944 [TaskFinalizer-3] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Aug-14 12:22:21.977 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Aug-14 12:22:21.977 [Task submitter] INFO  nextflow.Session - [71/525522] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS (ERR9668843)
-Aug-14 12:22:22.139 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS (ERR9668843); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/71/525522451a451cf86777c000b0e858]
-Aug-14 12:22:24.246 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP (ERR9668844); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/44/a0b973b97c4af395c79eabe4b560de]
-Aug-14 12:22:24.262 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Aug-14 12:22:24.262 [Task submitter] INFO  nextflow.Session - [f8/8ec3db] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS (ERR9668844)
-Aug-14 12:22:24.424 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS (ERR9668844); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/f8/8ec3dbdfaca6624e06eb66c7de9338]
-Aug-14 12:22:24.440 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Aug-14 12:22:24.440 [Task submitter] INFO  nextflow.Session - [4c/8aecb5] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS
-Aug-14 12:22:24.601 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS; status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/4c/8aecb5e62db55c687c3b5e6e1ebbac]
-Aug-14 12:22:24.608 [Actor Thread 117] ERROR nextflow.extension.OperatorImpl - @unknown
-org.yaml.snakeyaml.scanner.ScannerException: mapping values are not allowed here
- in 'reader', line 2, column 20:
-        awk: 5.1.0, API: 3.0 (GNU MPFR 4.1.0, GNU MP 6.2.1)
-                       ^
+Aug-14 13:00:27.971 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Aug-14 13:00:27.971 [main] DEBUG nextflow.Session - Session await
+Aug-14 13:00:28.053 [Actor Thread 127] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.001 s; external sort time: 0.01 s; total time: 0.011 s
+Aug-14 13:00:28.053 [Actor Thread 114] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.001 s; external sort time: 0.01 s; total time: 0.011 s
+Aug-14 13:00:28.057 [Actor Thread 127] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/cdcadmin/neissflow-dgx-updated/work/collect-file/712074018c11a6722d3de14dd89627c9
+Aug-14 13:00:28.057 [Actor Thread 114] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/cdcadmin/neissflow-dgx-updated/work/collect-file/5b0721385df0c817302b02ea5fbefa28
+Aug-14 13:00:28.063 [Actor Thread 127] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-14569960682404211354
+Aug-14 13:00:28.063 [Actor Thread 114] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-8232639346392907923
+Aug-14 13:00:28.123 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:00:28.125 [Task submitter] INFO  nextflow.Session - [b0/efdb60] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS (ERR9668844)
+Aug-14 13:00:28.135 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:00:28.136 [Task submitter] INFO  nextflow.Session - [95/fb652e] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS (ERR9668843)
+Aug-14 13:00:50.461 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS (ERR9668843); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/95/fb652ea9497a53af45e437a55400e8]
+Aug-14 13:00:50.462 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Aug-14 13:00:50.489 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:00:50.489 [Task submitter] INFO  nextflow.Session - [ab/46acbb] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP (ERR9668843)
+Aug-14 13:00:52.311 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: NFCORE_NEISSFLOW:NEISSFLOW:CHECK_FASTQS (ERR9668844); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/b0/efdb603551ee0b3f93956a281757dd]
+Aug-14 13:00:52.325 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:00:52.325 [Task submitter] INFO  nextflow.Session - [1b/88db54] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP (ERR9668844)
+Aug-14 13:01:14.009 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP (ERR9668843); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/ab/46acbb42c6e4471cc62890d340d5c7]
+Aug-14 13:01:14.031 [TaskFinalizer-3] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Aug-14 13:01:14.041 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:14.042 [Task submitter] INFO  nextflow.Session - [98/198800] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS (ERR9668843)
+Aug-14 13:01:14.200 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS (ERR9668843); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/98/1988006419058c55131bf488a3a700]
+Aug-14 13:01:16.076 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP (ERR9668844); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/1b/88db5497d07d5ee69ad39cadb740e0]
+Aug-14 13:01:16.092 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.092 [Task submitter] INFO  nextflow.Session - [c3/344678] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS (ERR9668844)
+Aug-14 13:01:16.251 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:PARSE_FASTP_REPORTS (ERR9668844); status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/c3/344678c0906666dc47cce99af4d766]
+Aug-14 13:01:16.268 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.268 [Task submitter] INFO  nextflow.Session - [f6/2248f4] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS
+Aug-14 13:01:16.434 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:COMBINE_FASTP_REPORTS; status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/f6/2248f4930f1e2eeea8b19bb04daedf]
+Aug-14 13:01:16.452 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.452 [Task submitter] INFO  nextflow.Session - [ec/37adc5] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK
+Aug-14 13:01:16.615 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK; status: COMPLETED; exit: 0; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/ec/37adc528ac728ad80347c29647e169]
+Aug-14 13:01:16.631 [Actor Thread 128] DEBUG nextflow.util.HashBuilder - Unable to get file attributes file: /home/phemarajata/neissflow/assets/FA19.gb -- Cause: java.nio.file.NoSuchFileException: /home/phemarajata/neissflow/assets/FA19.gb
+Aug-14 13:01:16.631 [Actor Thread 123] DEBUG nextflow.util.HashBuilder - Unable to get file attributes file: /home/phemarajata/neissflow/assets/FA19.gb -- Cause: java.nio.file.NoSuchFileException: /home/phemarajata/neissflow/assets/FA19.gb
+Aug-14 13:01:16.640 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.641 [Task submitter] INFO  nextflow.Session - [a1/8d8210] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH (ERR9668843)
+Aug-14 13:01:16.645 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.645 [Task submitter] INFO  nextflow.Session - [dc/e00de0] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH (ERR9668844)
+Aug-14 13:01:16.651 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.652 [Task submitter] INFO  nextflow.Session - [b2/405352] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)
+Aug-14 13:01:16.657 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.657 [Task submitter] INFO  nextflow.Session - [a3/fd69dd] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)
+Aug-14 13:01:16.743 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844); status: COMPLETED; exit: 127; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/a3/fd69dd4a04ae51e90e1044d2655b94]
+Aug-14 13:01:16.746 [TaskFinalizer-9] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844); work-dir=/home/cdcadmin/neissflow-dgx-updated/work/a3/fd69dd4a04ae51e90e1044d2655b94
+  error [nextflow.exception.ProcessFailedException]: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127)
+Aug-14 13:01:16.755 [TaskFinalizer-9] INFO  nextflow.processor.TaskProcessor - [a3/fd69dd] NOTE: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127) -- Execution is retried (1)
+Aug-14 13:01:16.763 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.764 [Task submitter] INFO  nextflow.Session - [f9/240253] Re-submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)
+Aug-14 13:01:16.847 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843); status: COMPLETED; exit: 127; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/b2/405352bdb211cf2f7c82245187f124]
+Aug-14 13:01:16.848 [TaskFinalizer-10] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843); work-dir=/home/cdcadmin/neissflow-dgx-updated/work/b2/405352bdb211cf2f7c82245187f124
+  error [nextflow.exception.ProcessFailedException]: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)` terminated with an error exit status (127)
+Aug-14 13:01:16.849 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844); status: COMPLETED; exit: 127; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/f9/240253e964e05363929364aee12698]
+Aug-14 13:01:16.849 [TaskFinalizer-10] INFO  nextflow.processor.TaskProcessor - [b2/405352] NOTE: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)` terminated with an error exit status (127) -- Execution is retried (1)
+Aug-14 13:01:16.849 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844); work-dir=/home/cdcadmin/neissflow-dgx-updated/work/f9/240253e964e05363929364aee12698
+  error [nextflow.exception.ProcessFailedException]: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127)
+Aug-14 13:01:16.851 [TaskFinalizer-1] INFO  nextflow.processor.TaskProcessor - [f9/240253] NOTE: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127) -- Execution is retried (2)
+Aug-14 13:01:16.857 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.857 [Task submitter] INFO  nextflow.Session - [75/89211b] Re-submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)
+Aug-14 13:01:16.863 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.864 [Task submitter] INFO  nextflow.Session - [03/79a161] Re-submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)
+Aug-14 13:01:16.904 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 14; name: NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843); status: COMPLETED; exit: 127; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/75/89211b46fb3d91c2c2b32f51dcce2d]
+Aug-14 13:01:16.905 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843); work-dir=/home/cdcadmin/neissflow-dgx-updated/work/75/89211b46fb3d91c2c2b32f51dcce2d
+  error [nextflow.exception.ProcessFailedException]: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)` terminated with an error exit status (127)
+Aug-14 13:01:16.906 [TaskFinalizer-2] INFO  nextflow.processor.TaskProcessor - [75/89211b] NOTE: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)` terminated with an error exit status (127) -- Execution is retried (2)
+Aug-14 13:01:16.956 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844); status: COMPLETED; exit: 127; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/03/79a1613a21cf1572988abd6f9624d8]
+Aug-14 13:01:16.957 [TaskFinalizer-3] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844); work-dir=/home/cdcadmin/neissflow-dgx-updated/work/03/79a1613a21cf1572988abd6f9624d8
+  error [nextflow.exception.ProcessFailedException]: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127)
+Aug-14 13:01:16.958 [TaskFinalizer-3] INFO  nextflow.processor.TaskProcessor - [03/79a161] NOTE: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127) -- Execution is retried (3)
+Aug-14 13:01:16.962 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:16.962 [Task submitter] INFO  nextflow.Session - [fb/f3d7f2] Re-submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)
+Aug-14 13:01:17.028 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843); status: COMPLETED; exit: 127; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/fb/f3d7f20ad6ecd76413b7e28bcd374c]
+Aug-14 13:01:17.028 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843); work-dir=/home/cdcadmin/neissflow-dgx-updated/work/fb/f3d7f20ad6ecd76413b7e28bcd374c
+  error [nextflow.exception.ProcessFailedException]: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)` terminated with an error exit status (127)
+Aug-14 13:01:17.030 [TaskFinalizer-4] INFO  nextflow.processor.TaskProcessor - [fb/f3d7f2] NOTE: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)` terminated with an error exit status (127) -- Execution is retried (3)
+Aug-14 13:01:17.033 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:17.033 [Task submitter] INFO  nextflow.Session - [11/8fbdff] Re-submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)
+Aug-14 13:01:17.098 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844); status: COMPLETED; exit: 127; error: -; workDir: /home/cdcadmin/neissflow-dgx-updated/work/11/8fbdffe7a64e5d34f81d1b781d8b2e]
+Aug-14 13:01:17.099 [TaskFinalizer-5] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844); work-dir=/home/cdcadmin/neissflow-dgx-updated/work/11/8fbdffe7a64e5d34f81d1b781d8b2e
+  error [nextflow.exception.ProcessFailedException]: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127)
+Aug-14 13:01:17.103 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Aug-14 13:01:17.103 [Task submitter] INFO  nextflow.Session - [87/0d4daf] Re-submitted process > NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843)
+Aug-14 13:01:17.109 [TaskFinalizer-5] ERROR nextflow.processor.TaskProcessor - Error executing process > 'NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)'
 
-	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:902)
-	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:391)
-	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238)
-	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:637)
-	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
-	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
-	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
-	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
-	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
-	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
-	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
-	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
-	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
-	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
-	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
-	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178)
-	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493)
-	at org.yaml.snakeyaml.Yaml.load(Yaml.java:434)
-	at nextflow.file.SlurperEx.load(SlurperEx.groovy:67)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
-	at Script_b46a7490731f48c6.processVersionsFromYAML(Script_b46a7490731f48c6:106)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:342)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
-	at Script_b46a7490731f48c6$_softwareVersionsToYAML_closure2.doCall(Script_b46a7490731f48c6:127)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:321)
-	at nextflow.extension.MapOp$_apply_closure1.doCall(MapOp.groovy:56)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
-	at groovy.lang.Closure.call(Closure.java:433)
-	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.startTask(DataflowOperatorActor.java:120)
-	at groovyx.gpars.dataflow.operator.DataflowOperatorActor.onMessage(DataflowOperatorActor.java:108)
-	at groovyx.gpars.actor.impl.SDAClosure$1.call(SDAClosure.java:43)
-	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:293)
-	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
-	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
-	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-Aug-14 12:22:24.617 [Actor Thread 117] DEBUG nextflow.Session - Session aborted -- Cause: mapping values are not allowed here
- in 'reader', line 2, column 20:
-        awk: 5.1.0, API: 3.0 (GNU MPFR 4.1.0, GNU MP 6.2.1)
-                       ^
+Caused by:
+  Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127)
 
-Aug-14 12:22:24.618 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Aug-14 12:22:24.619 [Task submitter] INFO  nextflow.Session - [34/bdaf25] Submitted process > NFCORE_NEISSFLOW:NEISSFLOW:PREPROCESSING:FASTP_QC_CHECK
-Aug-14 12:22:24.655 [Actor Thread 117] DEBUG nextflow.Session - The following nodes are still active:
-[process] NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY
-  status=ACTIVE
-  port 0: (queue) OPEN  ; channel: -
-  port 1: (value) bound ; channel: ref
-  port 2: (cntrl) -     ; channel: $
 
-[process] NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:MASH
-  status=ACTIVE
-  port 0: (queue) OPEN  ; channel: -
-  port 1: (cntrl) -     ; channel: $
+Command executed:
 
+  # Set TMPDIR if not already set
+  export TMPDIR=${TMPDIR:-$PWD/tmp}
+  mkdir -p $TMPDIR
+  
+  filename=FA19.gb
+  outdir="${filename%.*}"
+  
+  snippy --cpus 24 --prefix ERR9668844 --outdir ${outdir}/ERR9668844 --ref FA19.gb --R1 ERR9668844_1.fastq.gz --R2 ERR9668844_2.fastq.gz --tmpdir $TMPDIR --minfrac 0.9 --basequal 20
+  
+  cat <<-END_VERSIONS > versions.yml
+  "NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY":
+      snippy: $(snippy --version 2>/dev/null | sed 's/snippy //' || echo "unknown")
+  END_VERSIONS
+
+Command exit status:
+  127
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 9: snippy: command not found
+
+Work dir:
+  /home/cdcadmin/neissflow-dgx-updated/work/11/8fbdffe7a64e5d34f81d1b781d8b2e
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+Aug-14 13:01:17.112 [TaskFinalizer-5] DEBUG nextflow.Session - Session aborted -- Cause: Process `NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668844)` terminated with an error exit status (127)
+Aug-14 13:01:17.149 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Aug-14 13:01:17.150 [TaskFinalizer-5] DEBUG nextflow.Session - The following nodes are still active:
 [process] NFCORE_NEISSFLOW:NEISSFLOW:SPECIES_CHECK:COMBINE_MASH_REPORTS
   status=ACTIVE
   port 0: (value) OPEN  ; channel: tsv_paths
@@ -512,11 +518,6 @@ Aug-14 12:22:24.655 [Actor Thread 117] DEBUG nextflow.Session - The following no
   port 0: (value) OPEN  ; channel: stat_out
   port 1: (value) bound ; channel: prefix
   port 2: (cntrl) -     ; channel: $
-
-[process] NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:SNIPPY_AMR
-  status=ACTIVE
-  port 0: (queue) OPEN  ; channel: -
-  port 1: (cntrl) -     ; channel: $
 
 [process] NFCORE_NEISSFLOW:NEISSFLOW:AMR_PROFILER:DEPTH
   status=ACTIVE
@@ -622,20 +623,25 @@ Aug-14 12:22:24.655 [Actor Thread 117] DEBUG nextflow.Session - The following no
   port 3: (value) bound ; channel: multiqc_logo
   port 4: (cntrl) -     ; channel: $
 
-Aug-14 12:22:24.658 [Actor Thread 117] ERROR nextflow.Nextflow - Pipeline failed. Please refer to troubleshooting docs: https://nf-co.re/docs/usage/troubleshooting
-Aug-14 12:22:24.659 [main] DEBUG nextflow.Session - Session await > all processes finished
-Aug-14 12:22:24.659 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Aug-14 12:22:24.659 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
-Aug-14 12:22:24.661 [Actor Thread 123] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 3; slices: 1; internal sort time: 0.001 s; external sort time: 0.0 s; total time: 0.001 s
-Aug-14 12:22:24.663 [main] INFO  nextflow.Nextflow - -[0;35m[neissflow/main.nf][0;31m Pipeline completed with errors[0m-
-Aug-14 12:22:24.663 [Actor Thread 123] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/cdcadmin/neissflow-dgx-updated/work/collect-file/31b51224faee4f1332f96ce3c9e9db2f
-Aug-14 12:22:24.664 [Actor Thread 123] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-14628732439562427584
-Aug-14 12:22:24.666 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (1)
-Aug-14 12:22:24.674 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=7; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=1; runningCount=-1; retriesCount=0; abortedCount=1; succeedDuration=25m 4s; failedDuration=0ms; cachedDuration=0ms;loadCpus=-8; loadMemory=0; peakRunning=2; peakCpus=48; peakMemory=128 GB; ]
-Aug-14 12:22:24.674 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
-Aug-14 12:22:24.675 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
-Aug-14 12:22:25.152 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
-Aug-14 12:22:25.202 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Aug-14 12:22:25.221 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-validation@1.1.4'
-Aug-14 12:22:25.222 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-validation
-Aug-14 12:22:25.223 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+Aug-14 13:01:17.151 [TaskFinalizer-5] ERROR nextflow.Nextflow - Pipeline failed. Please refer to troubleshooting docs: https://nf-co.re/docs/usage/troubleshooting
+Aug-14 13:01:17.152 [main] DEBUG nextflow.Session - Session await > all processes finished
+Aug-14 13:01:17.152 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Aug-14 13:01:17.154 [Actor Thread 129] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=NFCORE_NEISSFLOW:NEISSFLOW:PHYLOGENY:PHYLOGENY_QC; work-dir=null
+  error [java.lang.InterruptedException]: java.lang.InterruptedException
+Aug-14 13:01:17.155 [main] INFO  nextflow.Nextflow - -[0;35m[neissflow/main.nf][0;31m Pipeline completed with errors[0m-
+Aug-14 13:01:17.157 [Actor Thread 100] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 5; slices: 1; internal sort time: 0.003 s; external sort time: 0.001 s; total time: 0.004 s
+Aug-14 13:01:17.158 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (3)
+Aug-14 13:01:17.159 [Actor Thread 100] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/cdcadmin/neissflow-dgx-updated/work/collect-file/64fe646dc6087448ed5c759bf2298dd8
+Aug-14 13:01:17.160 [Actor Thread 100] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-17079548789863483282
+Aug-14 13:01:17.174 [main] DEBUG n.executor.local.LocalTaskHandler - Unable to kill NFCORE_NEISSFLOW:NEISSFLOW:SNIPPY (ERR9668843) -- command: kill -TERM 150386; exit: 1 
+ bash: line 1: kill: (150386) - No such process
+
+Aug-14 13:01:17.176 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=8; failedCount=7; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=1; runningCount=-1; retriesCount=6; abortedCount=3; succeedDuration=25m 1s; failedDuration=4.6s; cachedDuration=0ms;loadCpus=-24; loadMemory=0; peakRunning=4; peakCpus=96; peakMemory=448 GB; ]
+Aug-14 13:01:17.176 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Aug-14 13:01:17.177 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Aug-14 13:01:17.666 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Aug-14 13:01:17.717 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Aug-14 13:01:17.738 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-validation@1.1.4'
+Aug-14 13:01:17.738 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-validation
+Aug-14 13:01:17.740 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

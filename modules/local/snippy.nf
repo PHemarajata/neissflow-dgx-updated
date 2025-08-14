@@ -46,7 +46,7 @@ process SNIPPY {
         filename=$ref
         outdir="\${filename%.*}"
 
-        snippy --cpus ${task.cpus} --prefix $sample_name --outdir \${outdir}/$sample_name --ref $ref --R1 $read_1 --R2 $read_2 --tmpdir \$TMPDIR --minfrac 0.9 --basequal 20 --noref
+        snippy --cpus ${task.cpus} --prefix $sample_name --outdir \${outdir}/$sample_name --ref $ref --R1 $read_1 --R2 $read_2 --tmpdir \$TMPDIR --minfrac 0.9 --basequal 20
 
         cat <<-END_VERSIONS > versions.yml
         "${task.process}":
@@ -60,7 +60,7 @@ process SNIPPY {
         filename=$ref
         outdir="\${filename%.*}"
 
-        snippy --cpus ${task.cpus} --prefix $sample_name --outdir \${outdir}/$sample_name --ref $ref --contigs $input --noref
+        snippy --cpus ${task.cpus} --prefix $sample_name --outdir \${outdir}/$sample_name --ref $ref --contigs $input
 
         cat <<-END_VERSIONS > versions.yml
         "${task.process}":

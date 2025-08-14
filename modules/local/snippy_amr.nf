@@ -39,7 +39,7 @@ process SNIPPY_AMR {
     read_2 = fastq_paths[1]
     """
 
-    snippy --cpus ${task.cpus} --prefix ${sample_name}_AMR --outdir $sample_name --ref ${params.amr_ref} --R1 $read_1 --R2 $read_2 --minfrac 0.9 --basequal 20 --noref
+    snippy --cpus ${task.cpus} --prefix ${sample_name}_AMR --outdir $sample_name --ref ${params.amr_ref} --R1 $read_1 --R2 $read_2 --minfrac 0.9 --basequal 20
 
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
