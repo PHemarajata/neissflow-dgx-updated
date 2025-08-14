@@ -1,0 +1,22 @@
+2025-07-03 09:59:26	22.9s	stoic_picasso	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,dgx_a100
+2025-07-03 10:01:22	51.9s	silly_meninsky	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,dgx_a100 -resume
+2025-07-03 10:19:11	1m 4s	berserk_stonebraker	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,dgx_a100 -resume
+2025-07-03 10:21:32	7.1s	agitated_lovelace	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 10:25:29	2m 51s	admiring_ritchie	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 10:30:26	13.6s	high_kilby	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 10:31:06	14.4s	cheesy_swanson	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 10:33:16	8.3s	extravagant_archimedes	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 10:33:53	7.8s	confident_montalcini	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 10:35:39	8m 9s	angry_planck	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 10:43:52	6m 26s	exotic_linnaeus	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 10:50:22	28.4s	romantic_mendel	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 11:30:40	-	fabulous_linnaeus	-	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 11:40:21	5m 2s	big_chandrasekhar	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 -resume
+2025-07-03 12:04:54	1m 18s	nauseous_turing	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity -resume
+2025-07-03 12:06:41	5m 58s	gigantic_nobel	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity --assets_dir /home/cdcadmin/neissflow/assets/ -resume
+2025-07-03 12:28:09	3m 19s	desperate_curie	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity,dgx_a100 --assets_dir /home/cdcadmin/neissflow/assets/ -resume
+2025-07-03 12:34:55	1m 31s	marvelous_stonebraker	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	d4fd945c-5d8c-4ede-9013-edb28f31514e	nextflow run main.nf -profile test,singularity --assets_dir /home/cdcadmin/neissflow/assets/ -resume
+2025-08-14 11:04:33	-	fabulous_turing	-	93f13dad4b7f5a348c1bf7f43947ca0d	fca7eaa8-a127-4134-acf3-ca17ca5bddee	nextflow main.nf
+2025-08-14 11:06:39	-	gloomy_borg	-	93f13dad4b7f5a348c1bf7f43947ca0d	2364b409-0381-4b73-a07c-55323e494701	nextflow main.nf -profile dgx_a100 --input /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset --outdir /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results
+2025-08-14 11:12:35	-	high_legentil	-	93f13dad4b7f5a348c1bf7f43947ca0d	ca2de5be-7b3a-4c38-b97b-364f27866e6c	nextflow main.nf -profile dgx_a100 --input /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv --outdir /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results
+2025-08-14 11:16:33	58.1s	awesome_almeida	ERR	93f13dad4b7f5a348c1bf7f43947ca0d	9b58e515-9918-40ca-992c-cf55e950398f	nextflow main.nf -profile dgx_a100 --input /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv --outdir /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results
