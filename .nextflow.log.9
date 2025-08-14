@@ -1,65 +1,65 @@
-Aug-14 11:06:38.195 [main] DEBUG nextflow.cli.Launcher - $> nextflow main.nf -profile dgx_a100 --input /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset --outdir /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results
-Aug-14 11:06:38.287 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.3
-Aug-14 11:06:38.303 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/cdcadmin/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2
-Aug-14 11:06:38.311 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Aug-14 11:06:38.312 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Aug-14 11:06:38.314 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
-Aug-14 11:06:38.325 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Aug-14 11:06:38.342 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/cdcadmin/neissflow/nextflow.config
-Aug-14 11:06:38.344 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/cdcadmin/neissflow/nextflow.config
-Aug-14 11:06:38.364 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/cdcadmin/.nextflow/secrets/store.json
-Aug-14 11:06:38.367 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@389562d6] - activable => nextflow.secret.LocalSecretsProvider@389562d6
-Aug-14 11:06:38.378 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `dgx_a100`
-Aug-14 11:06:39.559 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [all, test_fasta, highmem, QC, debug, test, short, singularity, test_both, dgx_a100]
-Aug-14 11:06:39.606 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
-Aug-14 11:06:39.623 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [gloomy_borg] DSL2 - revision: 93f13dad4b
-Aug-14 11:06:39.624 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Aug-14 11:06:39.625 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Aug-14 11:06:39.678 [main] DEBUG nextflow.Session - Session UUID: 2364b409-0381-4b73-a07c-55323e494701
-Aug-14 11:06:39.679 [main] DEBUG nextflow.Session - Run name: gloomy_borg
-Aug-14 11:06:39.679 [main] DEBUG nextflow.Session - Executor pool size: 128
-Aug-14 11:06:39.686 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Aug-14 11:06:39.690 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
-Aug-14 11:06:39.705 [main] DEBUG nextflow.cli.CmdRun - 
+Aug-14 11:12:34.502 [main] DEBUG nextflow.cli.Launcher - $> nextflow main.nf -profile dgx_a100 --input /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv --outdir /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results
+Aug-14 11:12:34.588 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.04.3
+Aug-14 11:12:34.603 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/cdcadmin/.nextflow/plugins; core-plugins: nf-amazon@2.5.2,nf-azure@1.6.0,nf-cloudcache@0.4.1,nf-codecommit@0.2.0,nf-console@1.1.3,nf-ga4gh@1.3.0,nf-google@1.13.2-patch1,nf-tower@1.9.1,nf-wave@1.4.2
+Aug-14 11:12:34.611 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Aug-14 11:12:34.612 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Aug-14 11:12:34.614 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.10.0 in 'deployment' mode
+Aug-14 11:12:34.624 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Aug-14 11:12:34.642 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/cdcadmin/neissflow/nextflow.config
+Aug-14 11:12:34.644 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/cdcadmin/neissflow/nextflow.config
+Aug-14 11:12:34.663 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/cdcadmin/.nextflow/secrets/store.json
+Aug-14 11:12:34.665 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@389562d6] - activable => nextflow.secret.LocalSecretsProvider@389562d6
+Aug-14 11:12:34.675 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `dgx_a100`
+Aug-14 11:12:35.812 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [all, test_fasta, highmem, QC, debug, test, short, singularity, test_both, dgx_a100]
+Aug-14 11:12:35.853 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Aug-14 11:12:35.868 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [high_legentil] DSL2 - revision: 93f13dad4b
+Aug-14 11:12:35.870 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Aug-14 11:12:35.870 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Aug-14 11:12:35.923 [main] DEBUG nextflow.Session - Session UUID: ca2de5be-7b3a-4c38-b97b-364f27866e6c
+Aug-14 11:12:35.924 [main] DEBUG nextflow.Session - Run name: high_legentil
+Aug-14 11:12:35.924 [main] DEBUG nextflow.Session - Executor pool size: 128
+Aug-14 11:12:35.931 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Aug-14 11:12:35.935 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=384; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Aug-14 11:12:35.951 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 24.04.3 build 5916
   Created: 09-07-2024 19:35 UTC (10-07-2024 02:35 ICST)
   System: Linux 5.15.0-151-generic
   Runtime: Groovy 4.0.21 on OpenJDK 64-Bit Server VM 17.0.10+7
   Encoding: UTF-8 (UTF-8)
-  Process: 50350@dgx-a100 [192.168.1.11]
-  CPUs: 128 - Mem: 503.7 GB (489.6 GB) - Swap: 0 (0)
-Aug-14 11:06:39.724 [main] DEBUG nextflow.Session - Work-dir: /home/cdcadmin/neissflow/work [ext2/ext3]
-Aug-14 11:06:39.779 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Aug-14 11:06:39.787 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Aug-14 11:06:39.831 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Aug-14 11:06:39.839 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 129; maxThreads: 1000
-Aug-14 11:06:39.886 [main] DEBUG nextflow.Session - Session start
-Aug-14 11:06:39.888 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results/trace.txt
-Aug-14 11:06:40.086 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Aug-14 11:06:41.404 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: latest
-Aug-14 11:06:41.672 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.4' resolved
-Aug-14 11:06:41.673 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.4'
-Aug-14 11:06:41.678 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.4
-Aug-14 11:06:41.678 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 11:06:41.933 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
-Aug-14 11:06:41.935 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
-Aug-14 11:06:41.935 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
-Aug-14 11:06:41.938 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 11:06:41.939 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
-Aug-14 11:06:45.427 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 11:06:45.619 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
-Aug-14 11:06:45.620 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
-Aug-14 11:06:45.621 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
-Aug-14 11:06:45.624 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 11:06:45.625 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
-Aug-14 11:06:47.318 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
-Aug-14 11:06:47.319 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
-Aug-14 11:06:47.320 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
-Aug-14 11:06:47.322 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
-Aug-14 11:06:47.323 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
-Aug-14 11:06:47.505 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
-Aug-14 11:06:47.550 [main] DEBUG nextflow.Nextflow - Using schema file: nextflow_schema.json
-Aug-14 11:06:47.561 [main] INFO  nextflow.Nextflow - 
+  Process: 53818@dgx-a100 [192.168.1.11]
+  CPUs: 128 - Mem: 503.7 GB (489.7 GB) - Swap: 0 (0)
+Aug-14 11:12:35.968 [main] DEBUG nextflow.Session - Work-dir: /home/cdcadmin/neissflow/work [ext2/ext3]
+Aug-14 11:12:36.019 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Aug-14 11:12:36.026 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Aug-14 11:12:36.069 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Aug-14 11:12:36.077 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 129; maxThreads: 1000
+Aug-14 11:12:36.122 [main] DEBUG nextflow.Session - Session start
+Aug-14 11:12:36.124 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results/trace.txt
+Aug-14 11:12:36.310 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Aug-14 11:12:37.626 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-validation version: latest
+Aug-14 11:12:38.180 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-validation@1.1.4' resolved
+Aug-14 11:12:38.180 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-validation@1.1.4'
+Aug-14 11:12:38.184 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-validation@1.1.4
+Aug-14 11:12:38.184 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 11:12:38.429 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
+Aug-14 11:12:38.430 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
+Aug-14 11:12:38.431 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
+Aug-14 11:12:38.434 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 11:12:38.435 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
+Aug-14 11:12:41.768 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 11:12:41.960 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
+Aug-14 11:12:41.961 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
+Aug-14 11:12:41.962 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
+Aug-14 11:12:41.965 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 11:12:41.966 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
+Aug-14 11:12:43.628 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsHelp:paramsHelp]; plugin Id: nf-validation
+Aug-14 11:12:43.629 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryLog:paramsSummaryLog]; plugin Id: nf-validation
+Aug-14 11:12:43.630 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [validateParameters:validateParameters]; plugin Id: nf-validation
+Aug-14 11:12:43.632 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [paramsSummaryMap:paramsSummaryMap]; plugin Id: nf-validation
+Aug-14 11:12:43.633 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
+Aug-14 11:12:43.778 [main] DEBUG nextflow.script.IncludeDef - Loading included plugin extensions with names: [fromSamplesheet:fromSamplesheet]; plugin Id: nf-validation
+Aug-14 11:12:43.851 [main] DEBUG nextflow.Nextflow - Using schema file: nextflow_schema.json
+Aug-14 11:12:43.863 [main] INFO  nextflow.Nextflow - 
 
 -[2m----------------------------------------------------[0m-
 [0;32m             _          __ _               
@@ -71,7 +71,7 @@ Aug-14 11:06:47.561 [main] INFO  nextflow.Nextflow -
 [0;35m  neissflow/main.nf v2.0.0[0m
 -[2m----------------------------------------------------[0m-
 [1mCore Nextflow options[0m
-  [0;34mrunName                   : [0;32mgloomy_borg[0m
+  [0;34mrunName                   : [0;32mhigh_legentil[0m
   [0;34mlaunchDir                 : [0;32m/home/cdcadmin/neissflow[0m
   [0;34mworkDir                   : [0;32m/home/cdcadmin/neissflow/work[0m
   [0;34mprojectDir                : [0;32m/home/cdcadmin/neissflow[0m
@@ -80,7 +80,7 @@ Aug-14 11:06:47.561 [main] INFO  nextflow.Nextflow -
   [0;34mconfigFiles               : [0;32m[0m
 
 [1mInput/output options[0m
-  [0;34minput                     : [0;32m/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset[0m
+  [0;34minput                     : [0;32m/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv[0m
   [0;34moutdir                    : [0;32m/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/results[0m
   [0;34mname                      : [0;32mcomplete[0m
 
@@ -129,25 +129,30 @@ If you use neissflow/main.nf for your analysis please cite:
 * Software dependencies
   https://github.com/CDCgov/neissflow/main.nf/-/blob/main/CITATIONS.md
 -[2m----------------------------------------------------[0m-
-Aug-14 11:06:47.585 [main] DEBUG nextflow.validation.SchemaValidator - Starting validation: '/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset' with 'assets/schema_input.json'
-Aug-14 11:06:47.603 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+Aug-14 11:12:43.875 [main] DEBUG nextflow.validation.SchemaValidator - Starting validation: '/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv' with 'assets/schema_input.json'
+Aug-14 11:12:43.982 [main] DEBUG nextflow.validation.SchemaValidator - * -- Entry 1 - fastq_2: string [/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668843_2.fastq] does not match pattern ^\S+\.f(ast)?q\.gz$ (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668843_2.fastq)
+Aug-14 11:12:43.982 [main] DEBUG nextflow.validation.SchemaValidator - * -- Entry 1 - fastq_1: string [/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668843_1.fastq] does not match pattern ^\S+\.f(ast)?q\.gz$ (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668843_1.fastq)
+Aug-14 11:12:43.982 [main] DEBUG nextflow.validation.SchemaValidator - * -- Entry 2 - fastq_2: string [/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668844_2.fastq] does not match pattern ^\S+\.f(ast)?q\.gz$ (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668844_2.fastq)
+Aug-14 11:12:43.982 [main] DEBUG nextflow.validation.SchemaValidator - * -- Entry 2 - fastq_1: string [/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668844_1.fastq] does not match pattern ^\S+\.f(ast)?q\.gz$ (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668844_1.fastq)
+Aug-14 11:12:43.983 [main] ERROR nextflow.validation.SchemaValidator - ERROR: Validation of '/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/subset.csv' file failed!
+Aug-14 11:12:43.998 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
   Script_fbb27da614938724: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/mash/combine_mash_reports.nf
   Script_ec1fe5e58cfe9c00: /home/cdcadmin/neissflow/./workflows/../modules/local/merge/merge.nf
   Script_4db33163bf5e1960: /home/cdcadmin/neissflow/./workflows/../modules/local/qc_check/qc_check.nf
-  Script_063d4aa3571d67c4: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/preprocessing.nf
   Script_58768c654a934421: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/variant_analysis.nf
+  Script_063d4aa3571d67c4: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/preprocessing.nf
   Script_e23f1b43c7ddfa33: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/gotree.nf
   Script_c5c706c0cf3fd9a3: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/snippy_core.nf
   Script_c950ad672cad0574: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/assembly.nf
   Script_2fc21e975812d304: /home/cdcadmin/neissflow/./workflows/../modules/local/snippy.nf
-  Script_34a6e65ee7dbdbe0: /home/cdcadmin/neissflow/./subworkflows/local/utils_nfcore_neissflow_pipeline/../../nf-core/utils_nextflow_pipeline/main.nf
+  Script_34a6e65ee7dbdbe0: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/utils_nfcore_neissflow_pipeline/../../nf-core/utils_nextflow_pipeline/main.nf
   Script_2e5348732a4e7bb0: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/fastp/fastp_qc.nf
   Script_a7d371fe23db7aab: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/utils_nfcore_neissflow_pipeline/../../nf-core/utils_nfvalidation_plugin/main.nf
   Script_b5147d15f6697044: /home/cdcadmin/neissflow/./workflows/../modules/local/check_fastqs.nf
   Script_47e10b5b1143796d: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/amr_profiler.nf
   Script_d43a7ac6165a9098: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/count_mono.nf
-  Script_11299cb12a111d0f: /home/cdcadmin/neissflow/./workflows/../modules/nf-core/multiqc/main.nf
   Script_9d26c2a2d1c0a0de: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/phylogeny.nf
+  Script_11299cb12a111d0f: /home/cdcadmin/neissflow/./workflows/../modules/nf-core/multiqc/main.nf
   Script_250447df0c6ceda4: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/fastp/fastp.nf
   Script_48a7912bd49586a6: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/raxml.nf
   Script_322a87e3ad1d33ae: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/nf-core/quast/main.nf
@@ -157,21 +162,21 @@ Aug-14 11:06:47.603 [main] DEBUG nextflow.script.ScriptRunner - Parsed script fi
   Script_0dae9d44ac43c4a0: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/make_guide.nf
   Script_5ac47bad11aadf90: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/assembly_stats_lite.nf
   Script_f6f961283e15b073: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/outbreak_detection.nf
-  Script_a91022202ff9beb3: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/stats/stats.nf
   Script_007bea257a1e8340: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/merge_amr.nf
+  Script_a91022202ff9beb3: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/stats/stats.nf
   Script_50e35ca81c2bdff5: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/stats/coverage.nf
-  Script_b46a7490731f48c6: /home/cdcadmin/neissflow/./subworkflows/local/utils_nfcore_neissflow_pipeline/../../nf-core/utils_nfcore_pipeline/main.nf
+  Script_b46a7490731f48c6: /home/cdcadmin/neissflow/./workflows/../subworkflows/nf-core/utils_nfcore_pipeline/main.nf
   Script_fb702b768132f516: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/merge_single_amr.nf
   Script_76e9ac96a6c60717: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/report.nf
   Script_2b7779e2cd301515: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/depth.nf
-  Script_033e739b8102f047: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/remove_ref.nf
   Script_6458cf0a0bb2502a: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/cluster_coloring.nf
+  Script_033e739b8102f047: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/remove_ref.nf
   Script_d830b0124e052347: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/fastp/combine_reports.nf
   Script_30d352b9a5a897a7: /home/cdcadmin/neissflow/./workflows/QC.nf
   Script_4b63ccfa0e441536: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/fastp/parse_fastp.nf
   Script_25784a6cc3904f81: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/gubbins.nf
   Script_2e8b63203ad4b51b: /home/cdcadmin/neissflow/./workflows/../modules/local/qc_check/initial_merge.nf
-  Script_228dd5752694ad41: /home/cdcadmin/neissflow/./subworkflows/local/utils_nfcore_neissflow_pipeline/main.nf
+  Script_228dd5752694ad41: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/utils_nfcore_neissflow_pipeline/main.nf
   Script_38cc6e893a8cae21: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/ngmaster.nf
   Script_0b2d93f493e59690: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/snippy_amr.nf
   Script_b691b9ae3f2e1f32: /home/cdcadmin/neissflow/./workflows/neissflow.nf
@@ -179,38 +184,30 @@ Aug-14 11:06:47.603 [main] DEBUG nextflow.script.ScriptRunner - Parsed script fi
   Script_ca5a55261753f5ac: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/snippy_clean.nf
   Script_6ca550f3f0c7dc72: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/ngmaster_simple.nf
   Script_f4f76b72002b7de0: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/phylogeny_qc.nf
-  Script_38723cf1683a6e5a: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/snpdists.nf
   Script_c00eb8d86f7b528a: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/species_check.nf
-  Script_8c745e5eb1edbf46: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/reroot.nf
+  Script_38723cf1683a6e5a: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/snpdists.nf
   Script_f5ba4a26a69155a6: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/mlst.nf
+  Script_8c745e5eb1edbf46: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/reroot.nf
   Script_24f51f409caeb2a8: /home/cdcadmin/neissflow/./workflows/../subworkflows/local/../../modules/local/shovill.nf
-Aug-14 11:06:47.603 [main] DEBUG nextflow.Session - Session aborted -- Cause: Is a directory
-Aug-14 11:06:47.623 [main] ERROR nextflow.cli.Launcher - Is a directory
-java.io.IOException: Is a directory
-	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
-	at java.base/sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:48)
-	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:330)
-	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:296)
-	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:273)
-	at java.base/sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:232)
-	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:65)
-	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
-	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270)
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313)
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:177)
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162)
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329)
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396)
-	at org.codehaus.groovy.runtime.IOGroovyMethods.readLine(IOGroovyMethods.java:651)
-	at nextflow.validation.SamplesheetConverter$_getHeader_closure6.doCall(SamplesheetConverter.groovy:243)
-	at nextflow.validation.SamplesheetConverter$_getHeader_closure6.call(SamplesheetConverter.groovy)
-	at org.codehaus.groovy.runtime.IOGroovyMethods.withReader(IOGroovyMethods.java:1167)
-	at org.apache.groovy.nio.extensions.NioExtensions.withReader(NioExtensions.java:1466)
-	at nextflow.validation.SamplesheetConverter.getHeader(SamplesheetConverter.groovy:243)
-	at nextflow.validation.SamplesheetConverter.getFileType(SamplesheetConverter.groovy:222)
-	at nextflow.validation.SchemaValidator.fromSamplesheet(SchemaValidator.groovy:184)
+Aug-14 11:12:43.998 [main] DEBUG nextflow.Session - Session aborted -- Cause: [0;31mThe following errors have been detected:
+
+* -- Entry 1 - fastq_2: FastQ file for reads 2 cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz' (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668843_2.fastq)
+* -- Entry 1 - fastq_1: FastQ file for reads 1 must be provided, cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz' (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668843_1.fastq)
+* -- Entry 2 - fastq_2: FastQ file for reads 2 cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz' (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668844_2.fastq)
+* -- Entry 2 - fastq_1: FastQ file for reads 1 must be provided, cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz' (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668844_1.fastq)
+[0m
+
+Aug-14 11:12:44.008 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.validation.SchemaValidationException: [0;31mThe following errors have been detected:
+
+* -- Entry 1 - fastq_2: FastQ file for reads 2 cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz' (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668843_2.fastq)
+* -- Entry 1 - fastq_1: FastQ file for reads 1 must be provided, cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz' (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668843_1.fastq)
+* -- Entry 2 - fastq_2: FastQ file for reads 2 cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz' (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668844_2.fastq)
+* -- Entry 2 - fastq_1: FastQ file for reads 1 must be provided, cannot contain spaces and must have extension '.fq.gz' or '.fastq.gz' (/home/cdcadmin/Downloads/NG_Thailand_FASTQ/subset/ERR9668844_1.fastq)
+[0m
+
+	at nextflow.validation.SchemaValidator.validateFile(SchemaValidator.groovy:607)
+	at nextflow.validation.SchemaValidator.fromSamplesheet(SchemaValidator.groovy:206)
 	at nextflow.validation.SchemaValidator.fromSamplesheet(SchemaValidator.groovy)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
