@@ -21,7 +21,7 @@ process REROOT {
 
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
-        Gotree: \$(gotree version 2>&1)
+        gotree: \$(gotree version 2>&1)
     END_VERSIONS
 
     """

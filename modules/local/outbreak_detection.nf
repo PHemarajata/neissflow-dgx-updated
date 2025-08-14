@@ -30,7 +30,7 @@ process OUTBREAK_DETECTION {
 
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
-        Python: \$(python --version 2>/dev/null | sed 's/Python //;' || echo "unknown")
+        python: \$(python --version 2>/dev/null | sed 's/Python //;' || echo "unknown")
     END_VERSIONS
 
     """

@@ -23,7 +23,7 @@ process MAKE_PARTITION_GUIDE {
 
     cat <<-END_VERSIONS > versions.yml
     "${task.process}":
-        Awk: \$(awk --version 2>&1 | sed -n 1p | sed 's/GNU Awk //')
+        awk: \$(awk --version 2>&1 | sed -n 1p | sed 's/GNU Awk //' | sed 's/,.*//')
     END_VERSIONS
     
     """
